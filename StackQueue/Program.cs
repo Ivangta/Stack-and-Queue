@@ -17,6 +17,7 @@ namespace _02._Software_Academy_from_4th_April_2020
                 Enqueue(i, item, array);
             }
 
+
             int[] arrayNew = new int[array.Length - 1];
 
             Dequeue(array, arrayNew);
