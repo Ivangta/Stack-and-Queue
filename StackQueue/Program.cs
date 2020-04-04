@@ -46,28 +46,6 @@ namespace _02._Software_Academy_from_4th_April_2020
         }
     }
 
-    interface IQueue
-    {
-        public void Enqueue(int i, int item, int[] array)
-        {
-            array[i] = item;
-        }
-
-        public void Dequeue(int[] array)
-        {
-            int[] arrayNew = new int[array.Length - 1];
-
-            for (int i = 1, j = 0; i < array.Length; i++, j++)
-            {
-                arrayNew[j] = array[i];
-            }
-
-        }
-
-        public void Peek(int[] array)
-        {
-            Console.WriteLine(array[0]);
-        }
-    }
+    
 }
 
